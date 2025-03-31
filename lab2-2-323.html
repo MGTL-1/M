@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-family: '微软雅黑', sans-serif;
+        }
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 10px;
+            color: #2c3e50;
+        }
+        th, td {
+            border: 2px solid #3498db;
+            padding: 15px;
+            vertical-align: top;
+        }
+        .section-title {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+        }
+        .photo-cell {
+            width: 150px;
+            text-align: center;
+        }
+        img {
+            width: 120px;
+            height: 160px;
+            border-radius: 5px;
+        }
+        .self-intro {
+            text-indent: 2em;
+            line-height: 1.6;
+        }
+		.fas.icon-prepend {
+		            margin-right: 8px;
+		            color: #3498db;
+		            min-width: 20px;
+		        }
+		        .list-icon {
+		            margin-right: 6px;
+		            color: #2ecc71;
+		        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>个人简历</caption>
+        
+        <!-- 个人信息 -->
+        <tr>
+            <th colspan="4" class="section-title">
+                <i class="fas fa-user"></i> 基本信息
+            </th>
+        </tr>
+        <tr>
+            <td colspan="3"><strong>姓名：</strong>高鹿桐</td>
+			<td rowspan="3" class="photo-cell">
+			    <img src="lab2.bmp.jpg" alt="个人照片">
+			</td>
+        </tr>
+        <tr>
+                    <td><strong><i class="fas fa-birthday-cake icon-prepend"></i>年龄：</strong>19</td>
+                    <td><strong><i class="fas fa-venus-mars icon-prepend"></i>性别：</strong>男</td>
+                    <td><strong><i class="fas fa-graduation-cap icon-prepend"></i>学历：</strong>本科</td>
+                </tr>
+        <tr>
+                    <td><strong><i class="fas fa-map-marker-alt icon-prepend"></i>籍贯：</strong>山东省济南市</td>
+                    <td colspan="3">
+                        <i class="fas fa-phone icon-prepend"></i><strong>电话：</strong>18863827190 | 
+                        <i class="fas fa-envelope icon-prepend"></i><strong>邮箱：</strong>3237261779@qq.com
+                    </td>
+                </tr>
+
+        <!-- 教育背景 -->
+        <tr>
+            <th colspan="4" class="section-title">
+                <i class="fas fa-graduation-cap"></i> 教育背景
+            </th>
+        </tr>
+        <tr>
+			<td><i class="fas fa-calendar-alt icon-prepend"></i>在校时间：2024-2028</td>
+             <td colspan="3">
+                            <strong><i class="fas fa-university icon-prepend"></i>鲁东大学</strong><br>
+                            <i class="fas fa-book-open list-icon"></i>软件工程专业<br>
+                        </td>
+        </tr>
+
+        <!-- 工作经历 -->
+        <tr>
+            <th colspan="4" class="section-title">
+                <i class="fas fa-briefcase"></i> 工作经历
+            </th>
+        </tr>
+        <tr>
+			 <td><i class="fas fa-calendar-alt icon-prepend"></i>工作时间：2024-至今</td>
+            <td colspan="3">
+                            <strong><i class="fas fa-building icon-prepend"></i>XX科技有限公司</strong> - 
+                            <i class="fas fa-id-badge list-icon"></i>前端开发工程师<br>
+                            <i class="fas fa-caret-right list-icon"></i>负责Web前端开发<br>
+                            <i class="fas fa-caret-right list-icon"></i>参与多个重点项目开发
+                        </td>
+        </tr>
+
+        <!-- 自我评价 -->
+        <tr>
+            <th colspan="4" class="section-title">
+                <i class="fas fa-comment"></i> 自我评价
+            </th>
+        </tr>
+        <tr>
+            <td colspan="4" class="self-intro">
+                作为一名软件工程专业的学生，我兼具扎实的技术功底与活跃的创新思维。熟练掌握HTML5、CSS3、JavaScript等前端技术栈，能独立完成响应式网页开发，对xxxxx有项目实战经验。在某某科技的前端工
+                程师岗位上，主导完成公司官网重构项目，并参与开发某公司的某某系统。具有强烈的技术敏感度，持续跟踪前沿技术动态，已通过自学掌握TypeScript和WebGL基础应用。擅长将抽象需求转化为技术解决方
+                案，在开发过程中坚持代码规范和性能优化原则。具备良好的跨部门协作能力，在敏捷开发团队中多次担任模块负责人，带领3人小组按期完成核心功能开发。性格开朗兼具严谨作风，适应高强度工作节奏，抗
+                压能力强。热爱技术分享，定期在团队内部组织代码评审会，倡导通过知识沉淀提升团队效能。始终以"工程师思维"看待问题，追求在用体验与技术实现之间找到最佳平衡点。
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
